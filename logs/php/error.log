@@ -29,3 +29,14 @@ Stack trace:
 [26-Oct-2023 16:28:07 UTC] PHP Parse error:  syntax error, unexpected token "<" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 23
 [26-Oct-2023 16:36:24 UTC] PHP Parse error:  syntax error, unexpected token "if" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 23
 [26-Oct-2023 19:34:51 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 39
+[26-Oct-2023 20:25:02 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "charset" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php:4
+Stack trace:
+#0 /Users/alex/Local Sites/fictional-university/app/public/wp-includes/template.php(785): require_once()
+#1 /Users/alex/Local Sites/fictional-university/app/public/wp-includes/template.php(720): load_template('/Users/alex/Loc...', true, Array)
+#2 /Users/alex/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php(1): get_header()
+#4 /Users/alex/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/alex/Loc...')
+#5 /Users/alex/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/alex/Loc...')
+#6 /Users/alex/Local Sites/fictional-university/app/public/index.php(17): require('/Users/alex/Loc...')
+#7 {main}
+  thrown in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 4
