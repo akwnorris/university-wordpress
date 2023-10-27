@@ -20,7 +20,7 @@ while(have_posts()) {
         <p><a class="metabox__blog-home-link" href="<?php echo get_post_type_archive_link('program'); ?>"><i class="fa fa-home" aria-hidden="true"></i>All Program</a> <span class="metabox_main"><?php the_title(); ?></span></p>
       </div>
 
-        <div class="generic-content"><?php the_content(); ?>
+        <div class="generic-content"><?php the_content(); ?></div>
 
         <?php 
 
