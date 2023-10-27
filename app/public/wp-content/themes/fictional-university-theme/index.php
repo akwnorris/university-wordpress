@@ -1,1 +1,4 @@
-This is the generic blog listing screen template.
+<?php
+get_header();
+get_footer();
+?>
