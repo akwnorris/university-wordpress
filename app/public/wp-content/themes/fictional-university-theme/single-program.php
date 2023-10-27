@@ -45,6 +45,8 @@ while(have_posts()) {
               )
             ));
 
+            echo '<h2>Upcoming ' . get_the_title() . ' Events</h2>';
+
             while($homepageEvents->have_posts()) {
               $homepageEvents->the_post(); ?>
               <div class="event-summary">
