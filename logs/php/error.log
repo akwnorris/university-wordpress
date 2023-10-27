@@ -95,3 +95,6 @@ Stack trace:
 #6 /Users/alex/Local Sites/fictional-university/app/public/index.php(17): require('/Users/alex/Loc...')
 #7 {main}
   thrown in /Users/alex/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 310
+[27-Oct-2023 15:41:26 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /Users/alex/Local Sites/fictional-university/app/public/wp-content/mu-plugins/university-post-types.php:4) in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 20
+[27-Oct-2023 15:41:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/alex/Local Sites/fictional-university/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[27-Oct-2023 15:41:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/alex/Local Sites/fictional-university/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
