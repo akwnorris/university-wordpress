@@ -408,3 +408,15 @@ Stack trace:
 #18 /Users/alex/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/alex/Loc...')
 #19 {main}
   thrown in /Users/alex/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 310
+[27-Oct-2023 20:12:01 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 24
+[27-Oct-2023 20:12:31 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 24
+[27-Oct-2023 20:12:34 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 24
+[27-Oct-2023 20:13:04 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 24
+[27-Oct-2023 20:13:04 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 24
+[27-Oct-2023 20:13:05 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 24
+[27-Oct-2023 20:13:05 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 24
+[27-Oct-2023 20:13:06 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 24
+[27-Oct-2023 20:13:06 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 24
+[27-Oct-2023 20:13:12 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 24
+[27-Oct-2023 20:13:16 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 24
+[27-Oct-2023 20:13:17 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 24
