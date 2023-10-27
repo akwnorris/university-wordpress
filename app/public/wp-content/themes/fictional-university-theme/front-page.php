@@ -27,6 +27,7 @@
             <a class="event-summary__date t-center" href="#">
               <span class="event-summary__month"><?php 
               $eventDate = new DateTime();
+              echo $eventDate->format('M')
               ?></span>
               <span class="event-summary__day">25</span>
             </a>
