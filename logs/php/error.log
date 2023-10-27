@@ -435,3 +435,7 @@ Stack trace:
 #2 /Users/alex/Local Sites/fictional-university/app/public/index.php(17): require('/Users/alex/Loc...')
 #3 {main}
   thrown in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 51
+[27-Oct-2023 23:46:23 UTC] PHP Warning:  Undefined array key "size" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/plugins/manual-image-crop/lib/ManualImageCropEditorWindow.php on line 39
+[27-Oct-2023 23:47:52 UTC] PHP Warning:  Undefined array key "size" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/plugins/manual-image-crop/lib/ManualImageCropEditorWindow.php on line 39
+[27-Oct-2023 23:48:26 UTC] PHP Warning:  Undefined array key "size" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/plugins/manual-image-crop/lib/ManualImageCropEditorWindow.php on line 39
+[27-Oct-2023 23:48:41 UTC] PHP Warning:  Undefined array key "size" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/plugins/manual-image-crop/lib/ManualImageCropEditorWindow.php on line 39
