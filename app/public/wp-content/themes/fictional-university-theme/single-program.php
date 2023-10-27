@@ -40,7 +40,7 @@ while(have_posts()) {
                 array(
                     'key' => 'related_programs',
                     'compare' => 'LIKE',
-                    'value' => get_the_ID()
+                    'value' => '"'. get_the_ID() . '"'
                 )
               )
             ));
