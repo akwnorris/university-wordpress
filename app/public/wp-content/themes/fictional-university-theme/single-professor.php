@@ -18,7 +18,7 @@ while(have_posts()) {
     <div class="container container--narrow page-section">
     
 
-        <div class="generic-content"><?php the_content(); ?>
+        <div class="generic-content"><?php the_post_thumbnail(); the_content(); ?>
         <?php
 
           $relatedPrograms = get_field('related_programs');
