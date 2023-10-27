@@ -36,6 +36,11 @@ while(have_posts()) {
                   'compare' => '>=',
                   'value' => $today,
                   'type' => 'numeric'
+                ),
+                array(
+                    'key' => 'related_programs',
+                    'compare' => 'LIKE',
+                    'value' => get_the_ID()
                 )
               )
             ));
