@@ -12,6 +12,25 @@ get_header(); ?>
 </div>
 </div>
 
+<div class="container container--narrow page-section">
+  <?php 
+    while(have_posts()) {
+      the_post(); ?>
+      <div class="post-item">
+        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+
+        <div class="meta-box">
+          <p>Posted by Alex on 10.26.23 in News</p>
+        </div>
+
+        <div class="generic-content">
+          <?php the_excerpt(); ?>
+        </div>
+    </div>
+  <?php  }
+  ?>
+</div>
+
 <?php get_footer();
 
 ?>
