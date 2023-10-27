@@ -25,9 +25,9 @@ while(have_posts()) {
 
           $relatedPrograms = get_field('related_programs');
           
-          foreach($relatedPrograms as $program) {
-            echo get_the_title($program);
-          }
+          foreach($relatedPrograms as $program) { ?>
+            <li><a href="<?php echo get_the_permalink($program); ?>"><?php echo get_the_title($program); ?></a></li>
+          <?php }
 
         ?>
         
