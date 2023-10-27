@@ -48,6 +48,8 @@ while(have_posts()) {
             <?php }
             }
 
+            wp_reset_postdata();
+
 
             $today = date('Ymd');
             $homepageEvents = new WP_Query(array(
