@@ -421,3 +421,17 @@ Stack trace:
 [27-Oct-2023 20:13:16 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 24
 [27-Oct-2023 20:13:17 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 24
 [27-Oct-2023 20:46:31 UTC] PHP Parse error:  syntax error, unexpected token "class" in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 21
+[27-Oct-2023 23:25:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_url() in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:51
+Stack trace:
+#0 /Users/alex/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alex/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/alex/Loc...')
+#2 /Users/alex/Local Sites/fictional-university/app/public/index.php(17): require('/Users/alex/Loc...')
+#3 {main}
+  thrown in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 51
+[27-Oct-2023 23:26:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_url() in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:51
+Stack trace:
+#0 /Users/alex/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alex/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/alex/Loc...')
+#2 /Users/alex/Local Sites/fictional-university/app/public/index.php(17): require('/Users/alex/Loc...')
+#3 {main}
+  thrown in /Users/alex/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 51
