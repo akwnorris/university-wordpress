@@ -193,6 +193,7 @@ class Search {
     this.searchField = jquery__WEBPACK_IMPORTED_MODULE_0___default()("#search-term");
     this.events();
     this.isOverlayOpen = false;
+    this.typingTimer;
   }
 
   // 2. events
@@ -200,12 +201,15 @@ class Search {
     this.openButton.on("click", this.openOverlay.bind(this));
     this.closeButton.on("click", this.closeOverlay.bind(this));
     jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).on("keydown", this.keyPressDispatcher.bind(this));
-    this.searchField.on("keydown", this.typingLogic);
+    this.searchField.on("keydown", this.typingLogic.bind(this));
   }
 
   // 3. methods (function, action...)
   typingLogic() {
-    alert("hello from typing logic");
+    clearTimeout(this.typingTimer);
+    this.typingTimer = setTimeout(function () {
+      console.log("This is a test.");
+    }, 2000);
   }
   keyPressDispatcher(e) {
     if (e.keyCode == 83 && !this.isOverlayOpen) {
