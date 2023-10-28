@@ -2,8 +2,8 @@
 
 get_header(); 
 pageBanner(array(
-  'title' => 'All Programs',
-  'subtitle' => 'There is something for everyone. Have a look around.'
+  'title' => 'Our Campuses',
+  'subtitle' => 'We have several conveniently located campuses.'
 ));
 ?>
 
