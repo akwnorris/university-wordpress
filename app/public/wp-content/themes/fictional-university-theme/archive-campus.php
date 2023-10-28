@@ -14,7 +14,8 @@ pageBanner(array(
   <?php 
     while(have_posts()) {
       the_post(); ?>
-       <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+       <li><a href="<?php the_permalink(); ?>"><?php the_title(); 
+       $mapLocation = get_field('map_location'); ?></a></li>
   <?php  }
       echo paginate_links();
   ?>
