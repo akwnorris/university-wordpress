@@ -10,6 +10,7 @@ class Search {
     events() {
         this.openButton.on("click", this.openOverlay);
         this.closeButton.on("click", this.closeOverlay);
+        this.events();
     }
 
 
