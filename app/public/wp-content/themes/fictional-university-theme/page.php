@@ -4,10 +4,11 @@ get_header();
 
 while(have_posts()) {
     the_post(); 
-    pageBanner();
+    pageBanner(array(
+      'title' => 'This is the title',
+      'subtitle' => 'This is the subtitle'
+    ));
     ?>
-    
-
 
     <div class="container container--narrow page-section">
 
