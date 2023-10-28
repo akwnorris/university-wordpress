@@ -9,17 +9,18 @@ pageBanner(array(
 
 <div class="container container--narrow page-section">
   
-<ul class="link-list min-list">  
 
+<div class="acf-map">
   <?php 
     while(have_posts()) {
-      the_post(); ?>
-       <li><a href="<?php the_permalink(); ?>"><?php the_title(); 
-       $mapLocation = get_field('map_location'); ?></a></li>
+      the_post();
+      $mapLocation = get_field('map_location');
+       ?>
+       <div class="marker" div-lat="<?php echo $mapLocation['lat']; ?>" data-lng="<?php echo $mapLocation['lng']; ?>"></div>
   <?php  }
       echo paginate_links();
   ?>
-  </ul>
+  </div>
 
 
 </div>
