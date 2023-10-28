@@ -196,8 +196,12 @@ class Search {
   }
 
   // 3. methods (function, action...)
-  openOverlay() {}
-  closeOverlay() {}
+  openOverlay() {
+    this.searchOverlay.addClass("search-overlay--active");
+  }
+  closeOverlay() {
+    this.searchOverlay.removeClass("search-overlay--active");
+  }
 }
 /* harmony default export */ __webpack_exports__["default"] = (Search);
 
