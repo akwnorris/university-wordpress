@@ -132,3 +132,4 @@ function universitySearchResults($data) {
   return $results;
 
 }
+}
