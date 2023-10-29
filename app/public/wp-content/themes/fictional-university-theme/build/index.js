@@ -233,6 +233,7 @@ class Search {
             ${posts.length ? '<ul>' : ''}
             </ul>
         `);
+      this.isSpinnerVisible = false;
     });
   }
   keyPressDispatcher(e) {
