@@ -1,6 +1,6 @@
 class MyNotes {
     constructor() {
-
+        alert("Hello")
     }
 
     events() {
