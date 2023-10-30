@@ -1,5 +1,10 @@
 <?php
 
+if (!is_user_logged_in()) {
+    esc_url(wp_redirect(site_url('/')));
+    exit;
+}
+
 get_header();
 
 while(have_posts()) {
