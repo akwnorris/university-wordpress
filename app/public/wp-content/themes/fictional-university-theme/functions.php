@@ -122,4 +122,10 @@ function noSubsAdminBar() {
   }
 }
 
+add_filter('login_header_url', 'ourHeaderUrl');
+
+function ourHeaderUrl() {
+  return esc_url(site_url('/'));
+}
+
 ?>
