@@ -99,6 +99,17 @@ function universityMapKey ($api) {
   return $api;
 }
 
-add_filter('acf/fields/google_map/api', 'universityMapKey')
+add_filter('acf/fields/google_map/api', 'universityMapKey');
+
+add_action('admin_init', 'redirectSubsToFrontend');
+
+function redirectSubsToFrontend() {
+  $ourCurrentUser = wp_get_current_user();
+
+  if (count($ourCurrentUser->roles) == 1 AND $ourCurrentUser->roles[0] == 'subscriber') {
+    wp_redirect(site_url('/'));
+    exit;
+  }
+}
 
 ?>
