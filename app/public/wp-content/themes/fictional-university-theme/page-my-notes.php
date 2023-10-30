@@ -26,7 +26,7 @@ while(have_posts()) {
                     $userNotes->the_post(); ?>
                     <li>
                         <input class="note-title-field" value="<?php echo esc_attr(get_the_title()); ?>">
-                        <textarea class="note-body-field"><?php echo esc_attr(get_the_content()); ?></textarea>
+                        <textarea class="note-body-field"><?php echo esc_attr(wp_strip_all_tags(get_the_content())); ?></textarea>
                     </li>
                     <?php
                 }
