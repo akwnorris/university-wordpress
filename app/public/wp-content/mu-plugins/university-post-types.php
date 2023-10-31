@@ -10,7 +10,6 @@ function university_post_types() {
         'rewrite' => array('slug' => 'campuses'),
         'has_archive' => true,
         'public' => true,
-        'show_in_rest' => true,
         'labels' => array(
             'name' => 'Campuses',
             'add_new_item' => 'Add New Campus',
@@ -30,7 +29,6 @@ function university_post_types() {
         'rewrite' => array('slug' => 'events'),
         'has_archive' => true,
         'public' => true,
-        'show_in_rest' => true,
         'labels' => array(
             'name' => 'Events',
             'add_new_item' => 'Add New Event',
@@ -48,7 +46,6 @@ function university_post_types() {
         'rewrite' => array('slug' => 'programs'),
         'has_archive' => true,
         'public' => true,
-        'show_in_rest' => true,
         'labels' => array(
             'name' => 'Programs',
             'add_new_item' => 'Add New Program',
@@ -64,7 +61,6 @@ function university_post_types() {
         'show_in_rest' => true,
         'supports' => array('title', 'thumbnail'),
         'public' => true,
-        'show_in_rest' => true,
         'labels' => array(
             'name' => 'Professors',
             'add_new_item' => 'Add New Professor',
@@ -92,6 +88,21 @@ function university_post_types() {
                 'singular_name' => 'Note'
             ),
             'menu_icon' => 'dashicons-welcome-write-blog'
+        ));
+
+         //Like Post Type
+         register_post_type('like', array(
+            'supports' => array('title'),
+            'public' => false,
+            'show_ui' => true,
+            'labels' => array(
+                'name' => 'Likes',
+                'add_new_item' => 'Add New Like',
+                'edit_item' => 'Edit Like',
+                'all_items' => 'All Likes',
+                'singular_name' => 'Like'
+            ),
+            'menu_icon' => 'dashicons-heart'
         ));
 }
 
