@@ -83,7 +83,7 @@
             <div class="hero-slider__interior container">
               <div class="hero-slider__overlay">
                 <h2 class="headline headline--medium t-center">Free Transportation</h2>
-                <p class="t-center">All students have free unlimited bus fare.</p>
+                <p class="t-center">Ride to Success: Free Bus Transportation for Students</p>
                 <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
               </div>
             </div>
@@ -92,7 +92,7 @@
             <div class="hero-slider__interior container">
               <div class="hero-slider__overlay">
                 <h2 class="headline headline--medium t-center">An Apple a Day</h2>
-                <p class="t-center">Our dentistry program recommends eating apples.</p>
+                <p class="t-center">Nourishing Student Success: How Nutrition Shapes Campus Health and Well-being</p>
                 <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
               </div>
             </div>
@@ -100,8 +100,8 @@
           <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/bread.jpg'); ?>)">
             <div class="hero-slider__interior container">
               <div class="hero-slider__overlay">
-                <h2 class="headline headline--medium t-center">Free Food</h2>
-                <p class="t-center">Fictional University offers lunch plans for those in need.</p>
+                <h2 class="headline headline--medium t-center">Food Pantry</h2>
+                <p class="t-center">Empowering Students, Ending Hunger: Our Campus Food Pantry</p>
                 <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
               </div>
             </div>
